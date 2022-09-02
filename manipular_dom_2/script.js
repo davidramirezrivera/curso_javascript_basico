@@ -9,4 +9,3 @@ function btnclick(){
     let res = parseInt(valueA.value) + parseInt(valueB.value);
     resul.innerText = "el resultado es: " + res;
 }
-//addEventListener

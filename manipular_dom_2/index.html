@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CALCULADORA</h1>
+    <input id="valorA" placeholder="primer numero">
+    <input onchange="console.log('cambiaste el valor')" id="valorB" placeholder="segundo numero">
+    <button id="btnCalcular" onclick="btnclick()"> calclular </button>
+    <p id="resultado"> </p>
+    <script src="./script.js"></script>
+    
+</body>
+</html>
+<!-- onclick es un evento que se ejecuta desde html donde se invoca una funcion de javascript cuando se le da un click a la boton -->
+<!-- onchange este se ejecuta cuando se genera un cambio en el input --> 
+<!-- pero es una mala practica hacer esto -->
